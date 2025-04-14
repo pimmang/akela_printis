@@ -107,10 +107,12 @@
                                 class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 "
                                 placeholder="085342677431" required autocomplete>
                         </div>
+                        @if (isset($event))
+                            <input type="number" name="event" id="event" value="{{ $event->id }}" hidden
+                                class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 "
+                                placeholder="085342677431" required autocomplete>
+                        @endif
 
-                        <input type="number" name="event" id="event" value="{{ $event->id }}" hidden
-                            class="bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 "
-                            placeholder="085342677431" required autocomplete>
                     </div>
                     <button type="submit"
                         class="text-white w-full justify-center inline-flex items-center bg-primary-600 hover:bg-primary-500 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">

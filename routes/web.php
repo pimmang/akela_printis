@@ -75,3 +75,7 @@ Route::post('/booking-diskon', function (Request $request) {
 Route::get('/kontak', function () {
     return view('kontak');
 })->name('kontak');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -5,7 +5,8 @@
         class="h-screen px-4 kontak w-full relative flex items-center justify-center text-center flex-col gap-4 bg-primary-100/50">
         <div class="-translate-y-full ">
             <h1 class="text-5xl md:!text-6xl font-bold">Get in Touch</h1>
-            <p>Punya pertanyaan atau ingin cetak sekarang? Hubungi kami dan dapatkan layanan terbaik dengan cepat dan mudah!
+            <p>Punya pertanyaan atau ingin cetak uu sekarang? Hubungi kami dan dapatkan layanan terbaik dengan cepat dan
+                mudah!
                 📩</p>
         </div>
         <div class="absolute w-full h-1/3   bg-gradient-to-t !from-gray-100 !to-transparent right-0 bottom-0 z-10">
